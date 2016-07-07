@@ -1,0 +1,14 @@
+Given I import data from ODBMS database
+When I count the number of records in ODBMS table for Store NUmber 5001
+and I count the number of records in Fact.SalesReturns table 5001
+Then the total number of records match in both tables match
+
+
+Given I import data from ODBMS database
+When I sum the total sales amount from ODBMS for store number 5001
+and I sum the total sales amount from fact.salesreturns table for store number 5001
+then the total sales amount in both tables matches for store number 5001
+
+
+
+
